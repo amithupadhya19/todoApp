@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="10dp"
+    android:backgroundTint="#30aaffff">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/drawer_category_tv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="category"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
